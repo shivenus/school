@@ -92,6 +92,7 @@ $RECYCLE.BIN/
 *.o                  # Object files
 *.out                # Output files (like a.out)
 *.exe                # Windows executables
+*.obj                # Windows MSVC object files
 *.app                # macOS executables
 
 # --- Python ---
