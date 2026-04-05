@@ -1,0 +1,15 @@
+What, if anything, prints when each of the following C statements is performed?
+If the statement contains an error, describe the error and indicate how to correct it.
+
+Assume the following variable definitions:
+char s1[50] = "jack";
+char s2[50] = "jill";
+char s3[50] = "";
+
+a) printf("%c%s", toupper(s1[0]), &s1[1]);
+b) printf("%s", strcpy(s3, s2));
+c) printf("%s", strcat(strcat(strcpy(s3, s1), " and "), s2));
+d) printf("%zu", strlen(s1) + strlen(s2));
+e) printf("%zu", strlen(s3)); // using s3 after part (c) executes
+
+a) 
