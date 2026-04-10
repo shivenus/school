@@ -1,4 +1,6 @@
-10.1 Fill-In the blanks in each of the following:
+# 10.1 Fill-In the blanks in each of the following:
+
+---
 
 a) A(n)  is a collection of related variables under one name.
 structure
