@@ -1,0 +1,31 @@
+State whether each of the following is true or false. If false, explain why.
+
+---
+
+a)structs may contain variables of only one data type.
+false, any data type actually and varied, many
+
+b) Two unions can be compared (using ==) to determine whether they’re equal.
+false, unions cannot be compared because there might be bytes of undefined data with different values in union variables that are otherwise identical.
+
+c) The tag name of a struct is optional.
+true 
+
+d) Members of different structs must have unique names.
+false, if it's a different structure they don't need to be unique, members refer to the structure in which they're defined because of scope, so no need to have unique names. 
+If they're defined in the same structure they need unique names to be differentiated 
+
+e) Keyword typedef is used to define new data types.
+false, it's like an alias, defines whatever you data type you give it, followed by the name you choose
+like this: 
+typedef struct abc Abc
+struct tag name is abc, the alias/ typedef referring to it is now Abc.
+It's better practice to write the aliases capitalised for clarity, so I can instantly understand that it's an alias that has been user-created, not predefined by the language (like int or float, which are not capitalised)
+
+f) structs are always passed to functions by reference.
+false, they're passed by value
+
+g) structs may not be compared by using operators == and !=.
+true structs cannot use == because of "Memory Padding." >
+The computer leaves tiny, invisible gaps between variables to keep the CPU fast. These gaps contain random "trash" data. Even if your data matches, the "trash" might not, so a direct comparison would fail.
+​The Fix: Always compare structs member-by-member (e.g., a.id == b.id).

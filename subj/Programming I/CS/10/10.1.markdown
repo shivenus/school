@@ -1,0 +1,60 @@
+10.1 Fill-In the blanks in each of the following:
+
+a) A(n)  is a collection of related variables under one name.
+structure
+struttura
+
+b) A(n)  is a collection of variables under one name in which the vari-ables share the same memory.
+union
+unione
+
+c) In an expression using the  operator, bits are set to 1 if the corre-sponding bits in each operand are 1. Otherwise, the bits are set to zero.
+bitwise &, AND, MASK
+
+d) The variables declared in a structure definition are called its  .
+members
+membri
+
+e) In an expression using the  operator, bits are set to 1 if at least one of the corresponding bits in either operand is 1. Otherwise, the bits are set to 0.
+bitwise |, inclusive OR
+
+f) Keyword  introduces a structure declaration.
+struct
+
+g) Keyword  creates a synonym for a previously defined data type.
+typedef
+
+h) In an expression using the  operator, bits are set to 1 if exactly one of the corresponding bits in either operand is 1. Otherwise, the bits are set to 0.
+bitwise ^, XOR, esclusive OR
+
+i) The bitwise AND operator (&) is often used to  bits—that is, to se-lect certain bits while zeroing others.
+mask
+mascherare
+
+j) Keyword  is used to introduce a union definition.
+union
+
+
+k) The name of the structure is referred to as the structure .
+struct tag / struct label / etichetta 
+(correct word is "tag name or structure tag")
+
+l) You access a structure member with the  or  operators.
+. structure member operator , -> structure pointer operator
+. membro di struttura, -> puntatore a struttura.
+. = struct member op
+-> = struct pointer op
+
+m) The  and  operators shift the bits of a value left or right.
+<< left shift, spostamento a sinistra 
+>> right shift, spostamento a destra
+
+n) A(n)  is a set of integers represented by identifiers.
+enum, enumeration constant, enumeration
+costante di enumerazione
+
+
+solutions
+a) structure. b) union. c) bitwise AND (&). d) members. e) bitwise inclusive OR (|). f)struct. g) typedef. h) bitwise exclusive OR (^). i) mask. j) union. k) tag name. l) structure member, structure pointer. m) left-shift (<<), right-shift (>>).
+n) enumeration.
+
