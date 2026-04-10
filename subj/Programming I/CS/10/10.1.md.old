@@ -1,4 +1,4 @@
-10.1 Fill-In the blanks in each of the following:
+o10.1 Fill-In the blanks in each of the following:
 a) A(n)  is a collection of related variables under one name.
 b) A(n)  is a collection of variables under one name in which the vari-ables share the same memory.
 c) In an expression using the  operator, bits are set to 1 if the corre-sponding bits in each operand are 1. Otherwise, the bits are set to zero.
