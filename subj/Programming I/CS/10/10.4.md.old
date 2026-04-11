@@ -110,4 +110,3 @@ f) Assume variable p has type struct person and the variable c is a struct card.
 p = c;
 
 
-
